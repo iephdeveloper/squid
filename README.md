@@ -38,7 +38,9 @@ Debain & Ubuntu:<br />
 <code>htpasswd /etc/squid3/passwd USERNAME NA GUSTO</code><br /><br />
 CentOS/Fedora:<br />
 <code>htpasswd /etc/squid/passwd USERNAME NA GUSTO</code><br /><br />
-# Example
+
+# example
 <code>htpasswd /etc/squid/passwd iephdeveloper</code><br /><br />
+
 Replace username with the actual username of the user you want to add.<br /><br /><br />
 For help with Squid and in order to change the configuration according to your needs please consult the <a href="http://wiki.squid-cache.org/SquidFaq">Squid FAQ</a> and the <a href="http://wiki.squid-cache.org/">Squid wiki</a>.
