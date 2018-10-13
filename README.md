@@ -35,8 +35,10 @@ Step 4: Remove the SPI file with rm:<br />
 <b>How to add more users:</b><br /><br />
 You can easily add more users which are allowed to access your proxy with the command below:<br /><br />
 Debain & Ubuntu:<br />
-<code>htpasswd /etc/squid3/passwd username</code><br /><br />
+<code>htpasswd /etc/squid3/passwd USERNAME NA GUSTO</code><br /><br />
 CentOS/Fedora:<br />
-<code>htpasswd /etc/squid/passwd username</code><br /><br />
+<code>htpasswd /etc/squid/passwd USERNAME NA GUSTO</code><br /><br />
+# Example
+<code>htpasswd /etc/squid/passwd iephdeveloper</code><br /><br />
 Replace username with the actual username of the user you want to add.<br /><br /><br />
 For help with Squid and in order to change the configuration according to your needs please consult the <a href="http://wiki.squid-cache.org/SquidFaq">Squid FAQ</a> and the <a href="http://wiki.squid-cache.org/">Squid wiki</a>.
